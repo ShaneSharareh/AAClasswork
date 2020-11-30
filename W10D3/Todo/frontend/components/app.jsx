@@ -1,12 +1,15 @@
 import React from 'react'
+import TodoListContainer from './todos/todo_list_container'
 
 class App extends React.Component {
     render() {
         return (
             <div>
+                
                 <h1>
-                    You need to do some things. Here's the App for it! Please and Thank you!
+                    Todo List App
                 </h1>
+                <TodoListContainer/>
             </div>
         )
     }
